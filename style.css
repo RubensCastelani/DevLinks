@@ -5,7 +5,6 @@
 }
 
 body {
-  border: 1px solid blue;
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -22,13 +21,11 @@ body * {
 }
 
 #container {
-  border: 1px solid white;
   width: 360px;
   margin: 56px auto 0px;
 }
 
 #profile {
-  border: 1px solid aqua;
   text-align: center;
   padding: 24px;
 }
@@ -41,28 +38,28 @@ body * {
 }
 */
 #profile img {
-  border: 1px solid red;
   width: 112px;
 }
 
 #profile p {
-  border: 1px solid red;
   font-weight: 500px;
   line-height: 24px;
   margin-top: 8px;
 }
 
 ul {
-  border: 1px solid greenyellow;
-  list-style-image: url("./assets/dagger_100.gif");
-  list-style-position: inside;
-  text-align: center;
+  list-style: url("./assets/giant_blue_mushroom.gif");
 
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
 }
 
-ul li {
-  border: 1px solid red;
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 24px;
+
 }
