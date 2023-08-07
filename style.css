@@ -31,7 +31,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-
+  height: 100vh;
   /* background: color image repeat position/size 
   background: url(./assets/bg-mobile.jpg) no-repeat top center / cover;
   */
@@ -181,4 +181,15 @@ footer a {
   padding: 8px;
 
   font-size: 24px;
+}
+
+/* media queries */
+@media (min-wdith: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
